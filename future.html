@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Future Concepts</title>
+     <link rel="icon" type="image/png" href="assets/icon.png">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="main-nav">
+        <a href="index.html"><img src="assets/logo.png" alt="Logo" class="logo-img"></a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="ai.html">AI Timeline</a>
+            <a href="robotics.html">Robotics Timeline</a>
+            <a href="future.html" class="active">The Future</a>
+        </nav>
+        <button class="hamburger-menu" aria-label="Toggle navigation">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+    </header>
+    <main>
+        <div class="page-header">
+            <h1>Future Concepts</h1>
+            <p>From historical fact to informed speculation. Click on a concept to explore what the future of AI and Robotics may hold.</p>
+        </div>
+        <div class="future-container">
+            <div class="concept-web">
+                <div class="node active" data-target="agi">Artificial General Intelligence</div>
+                <div class="node" data-target="bci">Brain-Computer Interfaces</div>
+                <div class="node" data-target="swarm">Swarm Robotics</div>
+                <div class="node" data-target="work">The Future of Work</div>
+                <div class="node" data-target="quantum">Quantum AI</div>
+            </div>
+            <div class="content-display">
+                <div id="agi" class="content-item active"><h2>Artificial General Intelligence (AGI)</h2><p>AGI is the hypothetical intelligence of a machine that has the capacity to understand or learn any intellectual task that a human being can. It's the "holy grail" of AI research...</p><img src="assets/f.AGI.png" alt="AGI Concept" class="content-img"></div>
+                <div id="bci" class="content-item"><h2>Brain-Computer Interfaces (BCIs)</h2><p>BCIs create a direct communication pathway between an enhanced brain and an external device. They promise to restore movement and senses for those with paralysis...</p><img src="assets/f.BCIs.png" alt="BCI Concept" class="content-img"></div>
+                <div id="swarm" class="content-item"><h2>Swarm Robotics</h2><p>Inspired by the collective behavior of insects like ants and bees, swarm robotics coordinates large numbers of simple, small robots. Acting without centralized control...</p><img src="assets/f.Swarm Robotics.png" alt="Swarm Robotics Concept" class="content-img"></div>
+                <div id="work" class="content-item"><h2>The Future of Work</h2><p>AI and robotics are set to automate not just manual labor but cognitive tasks as well, causing a massive disruption to the global job market. This transition will eliminate some jobs...</p><img src="assets/f.The Future of Work.png" alt="Future of Work Concept" class="content-img"></div>
+                <div id="quantum" class="content-item"><h2>Quantum AI</h2><p>At the intersection of quantum computing and AI, this field aims to use quantum phenomena like superposition and entanglement to build vastly more powerful machine learning models...</p><img src="assets/f.Quantum AI.png" alt="Quantum AI Concept" class="content-img"></div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>

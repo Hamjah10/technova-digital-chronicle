@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>The AI Timeline</title>
+     <link rel="icon" type="image/png" href="assets/icon.png">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="main-nav">
+        <a href="index.html"><img src="assets/logo.png" alt="Logo" class="logo-img"></a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="ai.html" class="active">AI Timeline</a>
+            <a href="robotics.html">Robotics Timeline</a>
+            <a href="future.html">The Future</a>
+        </nav>
+        <button class="hamburger-menu" aria-label="Toggle navigation">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+    </header>
+    <main>
+        <div class="page-header"> <h1>The AI Timeline</h1> </div>
+        <div class="timeline">
+            <div class="timeline-container left" data-title="1950 - The Turing Test" data-img="assets/1950.ai.png" data-desc="Alan Turing's seminal paper 'Computing Machinery and Intelligence' proposed a test for machine intelligence. The 'Imitation Game' challenged a machine's ability to exhibit intelligent behavior indistinguishable from that of a human, laying the foundational philosophical question for the entire field of AI."><div class="content"><h2>1950</h2><h3>The Turing Test</h3><button class="read-more-btn">Read More</button></div></div>
+            <div class="timeline-container right" data-title="1956 - Dartmouth Workshop" data-img="assets/1956.ai.png" data-desc="A pivotal summer workshop at Dartmouth College, organized by John McCarthy, Marvin Minsky, and others, officially coined the term 'Artificial Intelligence.' This event brought together the founding fathers of AI and established it as a formal academic discipline, setting the research agenda for decades."><div class="content"><h2>1956</h2><h3>Birth of AI</h3><button class="read-more-btn">Read More</button></div></div>
+            <div class="timeline-container left" data-title="1997 - Deep Blue vs. Kasparov" data-img="assets/1997.ai.png" data-desc="IBM's Deep Blue chess-playing computer defeated world champion Garry Kasparov in a highly publicized match. It was a landmark moment, demonstrating that an AI could solve a complex problem with a vast search space, previously thought to be the exclusive domain of human intuition and intellect."><div class="content"><h2>1997</h2><h3>Deep Blue</h3><button class="read-more-btn">Read More</button></div></div>
+            <div class="timeline-container right" data-title="2012 - The Deep Learning Boom" data-img="assets/2012.ai.png" data-desc="A neural network called AlexNet, developed by Geoffrey Hinton's team, won the ImageNet competition by a massive margin. Its success, fueled by large datasets and GPU computation, kickstarted the modern deep learning revolution, making technologies like image recognition and natural language processing vastly more powerful."><div class="content"><h2>2012</h2><h3>AlexNet & Deep Learning</h3><button class="read-more-btn">Read More</button></div></div>
+            <div class="timeline-container left" data-title="2017 - The Transformer Architecture" data-img="assets/2017.ai.png" data-desc="Google Brain's paper 'Attention Is All You Need' introduced the Transformer architecture. By using a novel 'self-attention' mechanism, it revolutionized natural language processing, allowing models to handle long-range dependencies in text more effectively. This is the foundational technology behind models like GPT and BERT."><div class="content"><h2>2017</h2><h3>The Transformer</h3><button class="read-more-btn">Read More</button></div></div>
+            <div class="timeline-container right" data-title="2022 - Mainstream Generative AI" data-img="assets/2022.ai.png" data-desc="The public release and widespread adoption of powerful generative models like OpenAI's ChatGPT and text-to-image generators like DALL-E 2 and Midjourney marked a paradigm shift. For the first time, AI's creative and conversational capabilities were put directly into the hands of millions, making AI a global conversation."><div class="content"><h2>2022</h2><h3>Generative AI Goes Mainstream</h3><button class="read-more-btn">Read More</button></div></div>
+        </div>
+    </main>
+    <div id="timelineModal" class="modal">
+        <div class="modal-content"><span class="close-btn">&times;</span><img src="" alt="Timeline Event Image" class="modal-img" id="modalImg"><div class="modal-text"><h2 id="modalTitle"></h2><p id="modalDesc"></p></div></div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
